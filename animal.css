@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+#title{
+    color:rgb(77, 100, 77);
+    border: solid;
+    border-color: rgb(226, 176, 47);
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: antiquewhite;
+    font-family: fantasy;
+}
+.body_background{
+
+    background-color: rgb(61, 41, 70);
+    background-image: url('data:image/svg+xml,%3Csvg width="12" height="24" viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+
+}
+#title_animal{
+
+    color:rgba(70, 83, 110, 0.836);
+    font-family:  'Fruktur', cursive;
+    letter-spacing: 2px;
+    border:double;
+    border-width: 4px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgb(190, 240, 221);
+    
+}
+#about_animal{
+    color:lightgrey;
+    background-color: lightslategrey;
+    padding: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Yeon Sung'!important;
+    font-size: large;
+    border-radius: 25px;
+    border: solid;
+    border-width: medium;
+}
+
+#img_animal{
+    border:ridge;
+    border-color:rgb(239, 245, 186);
+    border-width: 9px;
+}
+
+#next_button {
+
+    background-color:rgb(44, 82, 61);
+    color:rgb(226, 248, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom:30px ;
+    
+}
+
+#how_to_help_btn {
+
+    background-color:rgb(141, 20, 67);
+    color:rgb(253, 209, 235);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom:30px ;
+}

@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+.body_background{
+
+    background-color: rgb(69, 114, 71);
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="36" height="72" viewBox="0 0 36 72"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+
+}
+#title{
+    color:rgb(77, 100, 77);
+    border: solid;
+    border-color: rgb(226, 176, 47);
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: antiquewhite;
+    font-family: fantasy;
+}
+
+#title_2{
+    color:rgb(21, 62, 75);
+    border:solid;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(252, 170, 177);
+    padding: 2px;
+}
+h3{
+    color:mintcream;
+    border-radius: 30px;
+    background-color: rgb(68, 68, 100);
+    margin-left:500px;
+    margin-right: 500px;
+}
+#btn_opt_1{
+    margin-right: 15px;
+    background-color: rgb(253, 219, 154);
+}
+#btn_opt_2{
+    margin-right: 15px;
+    background-color: rgb(253, 219, 154);
+}
+#btn_opt_3{
+    background-color:rgb(253, 219, 154);;
+}

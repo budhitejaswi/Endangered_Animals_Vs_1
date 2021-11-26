@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Endangered Animals</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+    <body class="body_background">
+
+        <h1 id="title">
+            <em>
+            Endangered Animals
+            </em>
+        </h1>
+        <br>
+        <br>
+        <h2 id="msg">Thank you for playing my game! Hope you liked it!</h2>
+        <br>
+        <br>
+        <h2 id="score_title"></h2>
+        <script>
+            score = localStorage.getItem("score");
+            document.getElementById("score_title").innerHTML = "Your Score is: " + score + " / 4";
+        </script>
+        <br>
+        <br>
+        <button class="btn btn-primary"id="read_animal" onclick="read_animal()">Read About Endangered Animals!</button>
+        <script>
+            function read_animal(){
+                window.location = "index.html";
+            }
+        </script>
+
+    </body>
+</html>
